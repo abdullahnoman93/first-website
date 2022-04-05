@@ -1,0 +1,217 @@
+*{padding:0;margin:0;outline:0;}
+
+
+.clear{overflow:hidden;}
+.bgimage{}
+.background-img {
+    background-image: url('./image/01.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 80vh;	
+}
+.headleft{width:200px;float:left;}
+
+.headleft img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    margin-top: 20px;
+    margin-left: 60px;
+	
+}
+
+.menu {
+    width: 676px;
+    float: right;
+    margin-top: 40px;
+}
+.menu ul{padding:0;margin:0;list-style:none;}
+.menu ul li{display:block;float:right;}
+.menu ul li a {
+    text-decoration: none;
+    font-size: 25px;
+    padding: 7px 30px;
+    display: block;
+    background-color: #948a1200;
+    margin: 5px;
+    border: 1px solid#ddd;
+    color: #f2ff1f;
+	transition: 3s;
+}
+.menu ul li a:hover{background-color: #04edc8;color:#6802a1; border: 1px solid#9A7634;}
+.mainbutton {
+    background-color: #37c15f00;
+    padding-top: 320px;
+}
+.mainbutton h2 {
+    font-size: 47px;
+    color: #1efff5;
+    margin-bottom: 20px;
+}
+.mainbutton button {
+    padding: 5px;
+    height: 60px;
+    width: 134px;
+    background-color: #04edc8;
+    border: 1px solid#ddd;
+}
+#ictive{background-color:#6802a1;}
+.mainbutton button:hover{background-color: #6802a1;}
+.mainbutton button a {
+    font-size: 20px;
+    text-decoration: none;
+    border: 1px solid#ddd;
+    border-radius: 10px;
+    color: #11cbf5;
+    font-family: fangsong;
+    background-color: #6802a1;
+    padding: 5px;
+}
+.mainbutton button a:hover{background-color: #04edc8;color: #6802a1;}
+
+.content {
+    background-color: #44f38e;
+    height: 578px;
+}
+.content h2 {
+    text-align: center;
+    padding: 20px;
+    font-size: 50px;
+    border-bottom: 2px dashed#ddd;
+}
+.myproject {
+    width: 290px;
+    float: left;
+    background-color: #c8ed79;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 65px;
+    margin-top: 50px;
+    border: 1px solid#939702;
+    border-radius: 3px;
+    box-shadow: 9px 10px#948A12;
+    transform: rotate(45deg);
+    transition:  3s;
+}
+.myproject:hover{transform: rotate(0deg);}
+.myproject button {
+    height: 35px;
+    width: 200px;
+    margin-left: 35px;
+    margin-top: 10px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+.myproject h2 {
+    margin: 10px 35px;
+    font-size: 35px;
+    color: #423030;
+    border-bottom: 2px dashed#ddd;
+    margin-bottom: 30px;
+}
+.myproject p {
+    margin: 10px;
+    text-align: center;
+    font-size: 19px;
+    text-align: justify;
+    color: #4a4721;
+}
+.myproject button {
+    height: 35px;
+    width: 200px;
+    margin-left: 35px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.myproject button a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: #7c7a2b;
+}
+
+.footer{background-color:#948A12;}
+.leftfooter{float:left;width:600px;}
+.projectwork{float:left;width:300px}
+.projectwork h2 {
+    margin: 20px 30px;
+    font-size: 31px;
+    color: #fff;
+}
+.projectwork ul{padding:0;margin:0;list-style:none;}
+.projectwork ul li {
+    display: block;
+    margin: 10px 30px;   
+}
+.projectwork ul li a {
+    color: #f7f385;
+    font-size: 20px;
+    text-decoration: none;
+    border-bottom: 1px dashed;
+    padding-bottom: 5px;
+}
+.projectwork ul li a:hover{color:#84E847;}
+.myprojectdalivay{float:right;width:300px}
+.myprojectdalivay h2{ 
+	margin: 20px 0px;
+    font-size: 31px;
+    color: #fff;}
+.myprojectdalivay ul{padding:0;margin:0;list-style:none;}
+.myprojectdalivay ul li{  
+	display: block;
+    margin: 10px 0px; 
+	display: block;
+}
+.myprojectdalivay ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #F7F37D;
+    margin: 10px 0px;
+    border-bottom: 1px dashed;
+    padding-bottom: 5px;
+}
+.myprojectdalivay ul li a:hover{color:#84E847;}
+.rightfooter{float:right;width:600px;}
+.sosailcontact{float:left;width:300px}
+.sosailcontact h2{
+	margin: 20px 0px;
+    font-size: 31px;
+    color: #fff;
+}
+.sosailcontact ul{padding:0;margin:0;list-style:none;}
+.sosailcontact ul li{
+	display: block;
+    margin: 10px 0px; 
+	display: block;
+}
+.sosailcontact ul li a{ 
+	text-decoration: none;
+    font-size: 20px;
+    color: #F7F37D;
+    margin: 10px 0px;
+    border-bottom: 1px dashed;
+    padding-bottom: 5px;
+}
+.sosailcontact ul li a:hover{color:#84E847;}
+.sorasoricontact{float:right;width:300px}
+.sorasoricontact h2{
+	margin: 20px 0px;
+    font-size: 31px;
+    color: #fff;
+}
+.sorasoricontact ul{padding:0;margin:0;list-style:none;}
+.sorasoricontact ul address{
+	display: block;
+    margin: 10px 0px; 
+	display: block;
+}
+.sorasoricontact ul address a{	
+	text-decoration: none;
+    font-size: 20px;
+    color: #F7F37D;
+    margin: 10px 0px;
+    border-bottom: 1px dashed;
+    padding-bottom: 5px;
+}
+.sorasoricontact ul li a:hover{color:#84E847;}
